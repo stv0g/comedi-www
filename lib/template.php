@@ -49,6 +49,7 @@ Index
 <br><a href="mailinglist.php">Mailing list</a>
 <br><a href="hardware.php">Supported<br>hardware</a>
 <br><a href="links.php">Manufacturers</a>
+<br><a href="https://cvs.comedi.org/cgi-bin/bugzilla/query.cgi">Bug Tracking</a>
 <br>
 </b></font>
 <br>
