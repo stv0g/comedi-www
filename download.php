@@ -11,6 +11,7 @@
 <li><a href="download">HTTP:</a> http://www.comedi.org/download
 <li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedi/comedi.tar.gz?tarball=1">Current Comedi CVS snapshot</a>
 <li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedilib/comedilib.tar.gz?tarball=1">Current Comedilib CVS snapshot</a>
+<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">Browse CVS repository</a>
 </ul>
 
 <p>Comedi and comedilib can be checked out using anonymous CVS
@@ -25,12 +26,6 @@ cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
 <p>
 When prompted for a password, hit enter.
 </p>
-
-<p>You may browse the CVS repository using viewcvs:<p>
-
-<ul>
-<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">CVS</a>
-</ul>
 
 <?php
  echo get_footer();
