@@ -44,8 +44,8 @@ for using Comedi from real-time tasks.
 (probably not accurate!)
 
 <ul>
-<li>comedi-0.7.68
-<li>comedilib-0.7.19
+<li>comedi-0.7.69
+<li>comedilib-0.7.22
 </ul>
 
 <p>
@@ -54,10 +54,12 @@ new versions are sometimes buggy.  However, reported bugs are usually
 quickly fixed.
 
 
-<h1>Maintainer</h1>
+<h1>Maintainers</h1>
 
 <p>
 David Schleef <address>ds@schleef.org</address>
+<p>
+Frank Mori Hess <address>fmhess@users.sourceforge.net</address>
 
 <p>
 Much of Comedi has been developed by others, suggesting the need for
