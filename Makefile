@@ -2,7 +2,7 @@
 PAGES := intro documentation hardware download links mailinglist
 OTHERFILES := comedi_logo.gif
 
-DESTDIR := /d/ds/www/comedi/
+DESTDIR := /home/www/comedi.org/
 
 all:	$(patsubst %,%.html,$(PAGES))
 
