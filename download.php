@@ -26,6 +26,12 @@ cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
 When prompted for a password, hit enter.
 </p>
 
+<p>You may browse the CVS repository using viewcvs:<p>
+
+<ul>
+<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">CVS</a>
+</ul>
+
 <?php
  echo get_footer();
 ?>

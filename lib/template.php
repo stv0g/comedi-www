@@ -44,7 +44,6 @@ Index
 <font size=2><b>
 <br><a href="index.php">Introduction</a>
 <br><a href="download.php">Download</a>
-<br><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">CVS</a>
 <br><a href="documentation.php">Documentation</a>
 <br><a href="mailinglist.php">Mailing list</a>
 <br><a href="hardware.php">Supported<br>hardware</a>
