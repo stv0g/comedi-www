@@ -1,4 +1,8 @@
 
+<?php
+ include('lib/template.php');
+ echo get_header('comedi', '.');
+?>
 
 <h1>Download</h1>
 
@@ -9,3 +13,6 @@
 <li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedilib/comedilib.tar.gz?tarball=1">Current Comedilib CVS snapshot</a>
 </ul>
 
+<?php
+ echo get_footer();
+?>

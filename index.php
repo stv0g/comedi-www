@@ -1,3 +1,8 @@
+<?php
+ include('lib/template.php');
+ echo get_header('comedi', '.');
+?>
+
 <h1>Introduction</h1>
 
 <p>
@@ -39,8 +44,8 @@ for using Comedi from real-time tasks.
 (probably not accurate!)
 
 <ul>
-<li>comedi-0.7.45
-<li>comedilib-0.7.9
+<li>comedi-0.7.66
+<li>comedilib-0.7.19
 </ul>
 
 <p>
@@ -58,3 +63,6 @@ David Schleef <address>ds@schleef.org</address>
 Much of Comedi has been developed by others, suggesting the need for
 a contributors list.
 
+<?php
+ echo get_footer();
+?>

@@ -1,3 +1,7 @@
+<?php
+ include('lib/template.php');
+ echo get_header('comedi', '.');
+?>
 
 <h1>Manufacturer Links</h1>
 
@@ -15,3 +19,6 @@
 <li><a href="http://www.quanser.com">Quanser Consulting</a>
 </ul>
 
+<?php
+ echo get_footer();
+?>

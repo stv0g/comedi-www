@@ -1,3 +1,7 @@
+<?php
+ include('lib/template.php');
+ echo get_header('comedi', '.');
+?>
 
 <h1>Mailing List</h1>
 
@@ -18,3 +22,6 @@ interface below.
 <p>
 Mailing list archive before May 2000 is not currently available
 
+<?php
+ echo get_footer();
+?>

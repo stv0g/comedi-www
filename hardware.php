@@ -1,4 +1,8 @@
 
+<?php
+ include('lib/template.php');
+ echo get_header('comedi', '.');
+?>
 
 
 <h1>Supported Hardware</h1>
@@ -259,3 +263,6 @@ SSV Embedded Systems         DIL/Net-PC 1486    ssv_dnp.o         dnp-1486
 
 </pre>
 
+<?php
+ echo get_footer();
+?>

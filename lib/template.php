@@ -1,3 +1,15 @@
+<?php
+ 
+ $local_prefix = '';
+
+ function get_header($title, $prefix) {
+  global $local_prefix, $clean;
+  $local_prefix = $prefix; // this is a hack so i don't have to pass prefix to get_footer
+  
+  if ($clean==1)
+    return "<html><head><title>$title</title></head><body>\n";
+  
+  $ret = <<<EOF
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html>
 <head>
@@ -30,13 +42,13 @@
 Index
 </b></font>
 <font size=2><b>
-<br><a href="intro.html">Introduction</a>
-<br><a href="download.html">Download</a>
+<br><a href="index.php">Introduction</a>
+<br><a href="download.php">Download</a>
 <br><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">CVS</a>
-<br><a href="documentation.html">Documentation</a>
-<br><a href="mailinglist.html">Mailing list</a>
-<br><a href="hardware.html">Supported<br>hardware</a>
-<br><a href="links.html">Manufacturers</a>
+<br><a href="documentation.php">Documentation</a>
+<br><a href="mailinglist.php">Mailing list</a>
+<br><a href="hardware.php">Supported<br>hardware</a>
+<br><a href="links.php">Manufacturers</a>
 <br>
 </b></font>
 <br>
@@ -54,16 +66,25 @@ Links
 </nobr>
 </td>
 <td valign=top align=left>
+EOF;
+  return $ret;
+ }
 
-CONTENT
-
-
-
-
-
-
+ function get_footer() {
+  global $local_prefix, $clean;
+  $prefix = $local_prefix;
+  
+  if ($clean==1)
+    return "</body></html>\n";
+  
+  $ret = <<<EOF
 </td>
 </tr>
 </table>
 </body>
 </html>
+EOF;
+  return $ret;
+ }
+
+?>
