@@ -13,6 +13,19 @@
 <li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedilib/comedilib.tar.gz?tarball=1">Current Comedilib CVS snapshot</a>
 </ul>
 
+<p>Comedi and comedilib can be checked out using anonymous CVS
+using the commands:<p>
+
+<pre>
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedi
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
+</pre>
+
+<p>
+When prompted for a password, hit enter.
+</p>
+
 <?php
  echo get_footer();
 ?>
