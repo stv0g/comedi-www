@@ -8,7 +8,7 @@
 <h1>Supported Hardware</h1>
 
 <p>
-Current as of 0.7.67.
+Current as of 0.7.69.
 </p>
 
 <pre>
@@ -336,7 +336,6 @@ standard                     parallel port      comedi_parport.o  comedi_parport
 unknown                      FL512              fl512.o           fl512     
 Winsystems                   PCM-A/D12          pcmad.o           pcmad12   
 Winsystems                   PCM-A/D16          pcmad.o           pcmad16   
-
 </pre>
 
 <?php
