@@ -20,7 +20,9 @@ ADLink                       ACL-6126           pcl726.o          acl6126
 ADLink                       ACL-6128           pcl726.o          acl6128   
 ADLink                       ACL-7122           pcl724.o          acl7122   
 ADLink                       ACL-7124           pcl724.o          acl7124   
+AdLink                       ACL-8112DG         pcl711.o          acl8112dg 
 ADLink                       ACL-8112DG         pcl812.o          acl8112dg 
+AdLink                       ACL-8112HG         pcl711.o          acl8112hg 
 ADLink                       ACL-8112HG         pcl812.o          acl8112hg 
 ADLink                       ACL-8113           pcl812.o          acl-8113  
 ADLink                       ACL-8216           pcl812.o          acl8216   
@@ -29,8 +31,6 @@ ADLink                       PCI-9118DG         adl_pci9118.o     pci9118dg
 ADLink                       PCI-9118HG         adl_pci9118.o     pci9118hg 
 ADLink                       PCI-9118HR         adl_pci9118.o     pci9118hr 
 ADLink                       PET-48DIO          pcl724.o          pet48dio  
-AdLink                       ACL-8112DG         pcl711.o          acl8112dg 
-AdLink                       ACL-8112HG         pcl711.o          acl8112hg 
 Advantech                    PCI-1710           adv_pci1710.o     pci1710   
 Advantech                    PCI-1710HG         adv_pci1710.o     pci1710hg 
 Advantech                    PCI-1711           adv_pci1710.o     pci1711   
@@ -44,13 +44,13 @@ Advantech                    PCI-1750           adv_pci_dio.o     pci1750
 Advantech                    PCI-1751           adv_pci_dio.o     pci1751   
 Advantech                    PCI-1752           adv_pci_dio.o     pci1752   
 Advantech                    PCI-1753           adv_pci_dio.o     pci1753   
-Advantech                    PCI-1753E          adv_pci_dio.o     pci1753e  
+Advantech                    PCI-1753+PCI-1753E adv_pci_dio.o     pci1753e  
 Advantech                    PCI-1754           adv_pci_dio.o     pci1754   
 Advantech                    PCI-1756           adv_pci_dio.o     pci1756   
 Advantech                    PCI-1760           adv_pci_dio.o     pci1760   
 Advantech                    PCI-1762           adv_pci_dio.o     pci1762   
-Advantech                    PCL-711            pcl711.o          pcl711    
 Advantech                    PCL-711B           pcl711.o          pcl711b   
+Advantech                    PCL-711            pcl711.o          pcl711    
 Advantech                    PCL-718            pcl818.o          pcl718    
 Advantech                    PCL-722            pcl724.o          pcl722    
 Advantech                    PCL-724            pcl724.o          pcl724    
@@ -63,15 +63,15 @@ Advantech                    PCL-733            poc.o             pcl733
 Advantech                    PCL-734            poc.o             pcl734    
 Advantech                    PCL-812            pcl812.o          pcl812    
 Advantech                    PCL-812PG          pcl812.o          pcl812pg  
-Advantech                    PCL-813            pcl812.o          pcl813    
 Advantech                    PCL-813B           pcl812.o          pcl813b   
+Advantech                    PCL-813            pcl812.o          pcl813    
 Advantech                    PCL-814B           pcl816.o          pcl814b   
 Advantech                    PCL-816            pcl816.o          pcl816    
-Advantech                    PCL-818            pcl818.o          pcl818    
-Advantech                    PCL-818H           pcl818.o          pcl818h   
 Advantech                    PCL-818HD          pcl818.o          pcl818hd  
 Advantech                    PCL-818HG          pcl818.o          pcl818hg  
+Advantech                    PCL-818H           pcl818.o          pcl818h   
 Advantech                    PCL-818L           pcl818.o          pcl818l   
+Advantech                    PCL-818            pcl818.o          pcl818    
 Advantech                    PCM-3730           pcm3730.o         pcm3730   
 Amplicon                     PC263              amplc_pc263.o     pc263     
 Amplicon                     PC36AT             amplc_pc236.o     pc36at    
@@ -82,33 +82,33 @@ Amplicon                     PCI263             amplc_pc263.o     pci263
 Analog Devices               RTI-800            rti800.o          rti800    
 Analog Devices               RTI-802            rti802.o          rti802    
 Analog Devices               RTI-815            rti800.o          rti815    
-Computer Boards              PCIM-DAS1602/16    cb_pcimdas.o      cb_pcimdas
-Computer Boards              PCIM-DDA06-16      cb_pcimdda.o      cb_pcimdda
 ComputerBoards               CIO-DAS1401/12     das16.o           cio-das1401/12
 ComputerBoards               CIO-DAS1402/12     das16.o           cio-das1402/12
 ComputerBoards               CIO-DAS1402/16     das16.o           cio-das1402/16
-ComputerBoards               CIO-DAS16/330      das16.o           cio-das16/330
-ComputerBoards               CIO-DAS16/JR       das16.o           cio-das16/jr
 ComputerBoards               CIO-DAS1601/12     das16.o           cio-das1601/12
 ComputerBoards               CIO-DAS1602/12     das16.o           cio-das1602/12
 ComputerBoards               CIO-DAS1602/16     das16.o           cio-das1602/16
+ComputerBoards               CIO-DAS16/330      das16.o           cio-das16/330
 ComputerBoards               CIO-DAS16JR/16     das16.o           cio-das16jr/16
-ComputerBoards               DAS08              das08.o           das08     
+ComputerBoards               CIO-DAS16/JR       das16.o           cio-das16/jr
 ComputerBoards               DAS08-AOH          das08.o           das08-aoh 
 ComputerBoards               DAS08-AOL          das08.o           das08-aol 
 ComputerBoards               DAS08-AOM          das08.o           das08-aom 
+ComputerBoards               DAS08              das08.o           das08     
+ComputerBoards               DAS08/JR-16-AO     das08.o           das08jr-16-ao
+ComputerBoards               DAS08/JR/16        das08.o           das08jr/16
+ComputerBoards               DAS08/JR-AO        das08.o           das08/jr-ao
 ComputerBoards               DAS08-PGH          das08.o           das08-pgh 
 ComputerBoards               DAS08-PGL          das08.o           das08-pgl 
 ComputerBoards               DAS08-PGM          das08.o           das08-pgm 
-ComputerBoards               DAS08/JR-16-AO     das08.o           das08jr-16-ao
-ComputerBoards               DAS08/JR-AO        das08.o           das08/jr-ao
-ComputerBoards               DAS08/JR/16        das08.o           das08jr/16
-ComputerBoards               PC-CARD DAS16/16   cb_das16_cs.o     cb_das16_cs
-ComputerBoards               PC-CARD DAS16/16-AO cb_das16_cs.o     cb_das16_cs
 ComputerBoards               PC104-DAS08        das08.o           pc104-das08
-ComputerBoards               PC104-DAS16/JR     das16.o           pc104-das16jr
 ComputerBoards               PC104-DAS16JR/16   das16.o           pc104-das16jr/16
+ComputerBoards               PC104-DAS16/JR     das16.o           pc104-das16jr
+ComputerBoards               PC-CARD DAS16/16-AO cb_das16_cs.o     cb_das16_cs
+ComputerBoards               PC-CARD DAS16/16   cb_das16_cs.o     cb_das16_cs
 ComputerBoards               PCI-DAS08          das08.o           pci-das08 
+Computer Boards              PCIM-DAS1602/16    cb_pcimdas.o      cb_pcimdas
+Computer Boards              PCIM-DDA06-16      cb_pcimdda.o      cb_pcimdda
 ComputerBoards               PCM-DAS08          das08_cs.o        pcm-das08 
 Contec                       PIO1616L           contec_pci_dio.o  contec_pci_dio
 Data Translation             DT01-EZ            dt2801.o          dt2801    
@@ -116,11 +116,11 @@ Data Translation             DT21-EZ            dt282x.o          dt21-ez
 Data Translation             DT23-EZ            dt282x.o          dt23-ez   
 Data Translation             DT24-EZ            dt282x.o          dt24-ez   
 Data Translation             DT24-EZ-PGL        dt282x.o          dt24-ez-pgl
-Data Translation             DT2801             dt2801.o          dt2801    
-Data Translation             DT2801-A           dt2801.o          dt2801    
 Data Translation             DT2801/5716A       dt2801.o          dt2801    
-Data Translation             DT2805             dt2801.o          dt2801    
+Data Translation             DT2801-A           dt2801.o          dt2801    
+Data Translation             DT2801             dt2801.o          dt2801    
 Data Translation             DT2805/5716A       dt2801.o          dt2801    
+Data Translation             DT2805             dt2801.o          dt2801    
 Data Translation             DT2808             dt2801.o          dt2801    
 Data Translation             DT2809             dt2801.o          dt2801    
 Data Translation             DT2811-PGH         dt2811.o          dt2811-pgh
@@ -145,70 +145,74 @@ Data Translation             DT3001-PGL         dt3000.o          dt3000
 Data Translation             DT3002             dt3000.o          dt3000    
 Data Translation             DT3003             dt3000.o          dt3000    
 Data Translation             DT3003-PGL         dt3000.o          dt3000    
-Data Translation             DT3004             dt3000.o          dt3000    
 Data Translation             DT3004-200         dt3000.o          dt3000    
+Data Translation             DT3004             dt3000.o          dt3000    
 Data Translation             DT3005             dt3000.o          dt3000    
 General Standards Corporation PCI-HPDI32         gsc_hpdi.o        gsc_hpdi  
 General Standards Corporation PMC-HPDI32         gsc_hpdi.o        gsc_hpdi  
 ICP                          A-821PGH           pcl812.o          a821pgh   
-ICP                          A-821PGL           pcl812.o          a821pgl   
 ICP                          A-821PGL-NDA       pcl812.o          a821pclnda
+ICP                          A-821PGL           pcl812.o          a821pgl   
 ICP                          A-822PGH           pcl812.o          a822pgh   
 ICP                          A-822PGL           pcl812.o          a822pgl   
 ICP                          A-823PGH           pcl812.o          a823pgh   
 ICP                          A-823PGL           pcl812.o          a823pgl   
 ICP                          A-826PG            pcl812.o          a826pg    
 ICP                          ISO-813            pcl812.o          iso813    
-IOTech                       DAQBoard/2000      daqboard2000.o    daqboard2000
-ITL                          USB-DUX            usbdux.c          usbdux.o  
 Inova                        ICP_MULTI          icp_multi.o       icp_multi 
 Intelligent Instrumentation  PCI-20001C         ii_pci20kc.o      ii_pci20kc
+IOTech                       DAQBoard/2000      daqboard2000.o    daqboard2000
+ITL                          USB-DUX            usbdux.c          usbdux.o  
+ITL                          USB-DUX            usbduxfast.c      usbduxfast.o
 Keithley                     DAS08              das08.o           das08     
 Keithley Metrabyte           DAC-02             poc.o             dac02     
 Keithley Metrabyte           DAS-1201           das16.o           das-1201  
 Keithley Metrabyte           DAS-1202           das16.o           das-1202  
 Keithley Metrabyte           DAS-1401           das16.o           das-1401  
 Keithley Metrabyte           DAS-1402           das16.o           das-1402  
-Keithley Metrabyte           DAS-16             das16.o           das-16    
 Keithley Metrabyte           DAS-1601           das16.o           das-1601  
 Keithley Metrabyte           DAS-1602           das16.o           das-1602  
+Keithley Metrabyte           DAS-16             das16.o           das-16    
 Keithley Metrabyte           DAS-16F            das16.o           das-16f   
 Keithley Metrabyte           DAS-16G            das16.o           das-16g   
 Keithley Metrabyte           DAS-1701/AO        das1800.o         das-1701ao
-Keithley Metrabyte           DAS-1701ST         das1800.o         das-1701st
 Keithley Metrabyte           DAS-1701ST-DA      das1800.o         das-1701st-da
+Keithley Metrabyte           DAS-1701ST         das1800.o         das-1701st
 Keithley Metrabyte           DAS-1702/AO        das1800.o         das-1702ao
-Keithley Metrabyte           DAS-1702HR         das1800.o         das-1702hr
 Keithley Metrabyte           DAS-1702HR-DA      das1800.o         das-1702hr-da
-Keithley Metrabyte           DAS-1702ST         das1800.o         das-1702st
+Keithley Metrabyte           DAS-1702HR         das1800.o         das-1702hr
 Keithley Metrabyte           DAS-1702ST-DA      das1800.o         das-1702st-da
+Keithley Metrabyte           DAS-1702ST         das1800.o         das-1702st
 Keithley Metrabyte           DAS-1801AO         das1800.o         das-1801ao
 Keithley Metrabyte           DAS-1801HC         das1800.o         das-1801hc
-Keithley Metrabyte           DAS-1801ST         das1800.o         das-1801st
 Keithley Metrabyte           DAS-1801ST-DA      das1800.o         das-1801st-da
+Keithley Metrabyte           DAS-1801ST         das1800.o         das-1801st
 Keithley Metrabyte           DAS-1802AO         das1800.o         das-1802ao
 Keithley Metrabyte           DAS-1802HC         das1800.o         das-1802hc
-Keithley Metrabyte           DAS-1802HR         das1800.o         das-1802hr
 Keithley Metrabyte           DAS-1802HR-DA      das1800.o         das-1802hr-da
-Keithley Metrabyte           DAS-1802ST         das1800.o         das-1802st
+Keithley Metrabyte           DAS-1802HR         das1800.o         das-1802hr
 Keithley Metrabyte           DAS-1802ST-DA      das1800.o         das-1802st-da
+Keithley Metrabyte           DAS-1802ST         das1800.o         das-1802st
+Keithley Metrabyte           DAS6402            das6402.o         das6402   
 Keithley Metrabyte           DAS-800            das800.o          das-800   
 Keithley Metrabyte           DAS-801            das800.o          das-801   
 Keithley Metrabyte           DAS-802            das800.o          das-802   
-Keithley Metrabyte           DAS6402            das6402.o         das6402   
 Kolter Electronic            PCI Counter Card   ke_counter.o      ke_counter
+MeasurementComputing         CIO-DAS16/M1       das16m1.o         cio-das16/m1
 Measurement Computing        CIO-DAS800         das800.o          cio-das800
 Measurement Computing        CIO-DAS801         das800.o          cio-das801
-Measurement Computing        CIO-DAS802         das800.o          cio-das802
 Measurement Computing        CIO-DAS802/16      das800.o          cio-das802/16
+Measurement Computing        CIO-DAS802         das800.o          cio-das802
 Measurement Computing        PCI-DAS1000        cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1001        cb_pcidas.o       cb_pcidas 
+Measurement Computing        PCI_DAS1002        cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1200        cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1200jr      cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1602/12     cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1602/16     cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS1602/16jr   cb_pcidas.o       cb_pcidas 
 Measurement Computing        PCI-DAS4020/12     cb_pcidas64.o     cb_pcidas64
+Measurement Computing        PCI-DAS6014        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6023        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6025        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6030        cb_pcidas64.o     cb_pcidas64
@@ -222,6 +226,9 @@ Measurement Computing        PCI-DAS6040        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6052        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6070        cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS6071        cb_pcidas64.o     cb_pcidas64
+Measurement Computing        PCI-DAS6402/12     cb_pcidas64.o     cb_pcidas64
+Measurement Computing        PCI-DAS6402/16     cb_pcidas64.o     cb_pcidas64
+Measurement Computing        PCI-DAS6402/16/JR  cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M1/14    cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M1/16    cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M1/16/JR cb_pcidas64.o     cb_pcidas64
@@ -231,51 +238,46 @@ Measurement Computing        PCI-DAS64/M2/16/JR cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M3/14    cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M3/16    cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DAS64/M3/16/JR cb_pcidas64.o     cb_pcidas64
-Measurement Computing        PCI-DAS6402/12     cb_pcidas64.o     cb_pcidas64
-Measurement Computing        PCI-DAS6402/16     cb_pcidas64.o     cb_pcidas64
-Measurement Computing        PCI-DAS6402/16/JR  cb_pcidas64.o     cb_pcidas64
 Measurement Computing        PCI-DDA02/12       cb_pcidda.o       cb_pcidda 
 Measurement Computing        PCI-DDA02/16       cb_pcidda.o       cb_pcidda 
 Measurement Computing        PCI-DDA04/12       cb_pcidda.o       cb_pcidda 
 Measurement Computing        PCI-DDA04/16       cb_pcidda.o       cb_pcidda 
 Measurement Computing        PCI-DDA08/12       cb_pcidda.o       cb_pcidda 
 Measurement Computing        PCI-DDA08/16       cb_pcidda.o       cb_pcidda 
-Measurement Computing        PCI_DAS1002        cb_pcidas.o       cb_pcidas 
-MeasurementComputing         CIO-DAS16/M1       das16m1.o         cio-das16/m1
 Meilhaus                     ME-2000i           me_daq.o          me_daq    
 Meilhaus                     ME-2600i           me_daq.o          me_daq    
 Meilhaus                     ME-4650            me4000.o          me4000    
 Meilhaus                     ME-4670i           me4000.o          me4000    
-Meilhaus                     ME-4680            me4000.o          me4000    
 Meilhaus                     ME-4680i           me4000.o          me4000    
 Meilhaus                     ME-4680is          me4000.o          me4000    
+Meilhaus                     ME-4680            me4000.o          me4000    
 Motorola                     MPC8260 CPM        mpc8260cpm.o      mpc8260cpm
-National Instruments         6527               ni_6527.o         ni6527    
+National Instruments         6527               ni_6527.o         unknown   
 National Instruments         AT-2150S           ni_at_a2150.o     at_a2150s 
 National Instruments         AT-A2150C          ni_at_a2150.o     at_a2150c 
 National Instruments         AT-AI-16XE-10      ni_atmio.o        ni_atmio  
 National Instruments         AT-AO-10           ni_at_ao.o        at-ao-10  
 National Instruments         AT-AO-6            ni_at_ao.o        at-ao-6   
-National Instruments         AT-MIO-16          ni_atmio16d.o     atmio16   
-National Instruments         AT-MIO-16D         ni_atmio16d.o     atmio16d  
 National Instruments         AT-MIO-16DE-10     ni_atmio.o        ni_atmio  
-National Instruments         AT-MIO-16E-1       ni_atmio.o        ni_atmio  
+National Instruments         AT-MIO-16D         ni_atmio16d.o     atmio16d  
 National Instruments         AT-MIO-16E-10      ni_atmio.o        ni_atmio  
+National Instruments         AT-MIO-16E-1       ni_atmio.o        ni_atmio  
 National Instruments         AT-MIO-16E-2       ni_atmio.o        ni_atmio  
+National Instruments         AT-MIO-16          ni_atmio16d.o     atmio16   
 National Instruments         AT-MIO-16XE-10     ni_atmio.o        ni_atmio  
 National Instruments         AT-MIO-16XE-50     ni_atmio.o        ni_atmio  
 National Instruments         AT-MIO-64E-3       ni_atmio.o        ni_atmio  
-National Instruments         DAQ-Card-DIO-24    ni_daq_dio24.o    daqcard-dio24
 National Instruments         DAQCard-1200       ni_labpc_cs.o     daqcard-1200
 National Instruments         DAQCard-6024E      ni_mio_cs.o       ni_mio_cs 
 National Instruments         DAQCard-6036E      ni_mio_cs.o       ni_mio_cs 
 National Instruments         DAQCard-6062E      ni_mio_cs.o       ni_mio_cs 
 National Instruments         DAQCard-AI-16E-4   ni_mio_cs.o       ni_mio_cs 
 National Instruments         DAQCard-AI-16XE-50 ni_mio_cs.o       ni_mio_cs 
-National Instruments         Lab-PC+            ni_labpc.o        lab-pc+   
-National Instruments         Lab-PC-1200        ni_labpc.o        labpc-1200
 National Instruments         Lab-PC-1200AI      ni_labpc.o        labpc-1200ai
+National Instruments         Lab-PC-1200        ni_labpc.o        labpc-1200
+National Instruments         Lab-PC+            ni_labpc.o        lab-pc+   
 National Instruments         PCI-1200           ni_labpc.o        pci-1200  
+National Instruments         PCI-6014           ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6023E          ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6024E          ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6025E          ni_pcimio.o       ni_pcimio 
@@ -290,13 +292,11 @@ National Instruments         PCI-6052E          ni_pcimio.o       ni_pcimio
 National Instruments         PCI-6071E          ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6110           ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6111           ni_pcimio.o       ni_pcimio 
-National Instruments         PCI-6503           ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-6503B          ni_pcidio.o       ni_pcidio 
+National Instruments         PCI-6503           ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-6503X          ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-6533           ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-6534           ni_pcidio.o       ni_pcidio 
-National Instruments         PCI-6601           ni_660x.o         ni_660x   
-National Instruments         PCI-6602           ni_660x.o         ni_660x   
 National Instruments         PCI-6703           ni_670x.o         ni_670x   
 National Instruments         PCI-6704           ni_670x.o         ni_670x   
 National Instruments         PCI-6711           ni_pcimio.o       ni_pcimio 
@@ -304,12 +304,13 @@ National Instruments         PCI-6713           ni_pcimio.o       ni_pcimio
 National Instruments         PCI-6731           ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-6733           ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-DIO-32HS       ni_pcidio.o       ni_pcidio 
-National Instruments         PCI-DIO-96         ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-DIO-96B        ni_pcidio.o       ni_pcidio 
+National Instruments         PCI-DIO-96         ni_pcidio.o       ni_pcidio 
 National Instruments         PCI-MIO-16E-1      ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-MIO-16E-4      ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-MIO-16XE-10    ni_pcimio.o       ni_pcimio 
 National Instruments         PCI-MIO-16XE-50    ni_pcimio.o       ni_pcimio 
+National Instruments         PCMCIA DAQ-Card DIO-24 ni_daq_dio24.o    ni_daq_dio24
 National Instruments         PXI-6025E          ni_pcimio.o       ni_pcimio 
 National Instruments         PXI-6030E          ni_pcimio.o       ni_pcimio 
 National Instruments         PXI-6040E          ni_pcimio.o       ni_pcimio 
@@ -319,19 +320,23 @@ National Instruments         PXI-6071E          ni_pcimio.o       ni_pcimio
 National Instruments         PXI-6503           ni_pcidio.o       ni_pcidio 
 National Instruments         PXI-6508           ni_pcidio.o       ni_pcidio 
 National Instruments         PXI-6533           ni_pcidio.o       ni_pcidio 
+National Instruments         PXI-6711           ni_pcimio.o       ni_pcimio 
+National Instruments         PXI-6713           ni_pcimio.o       ni_pcimio 
+National Instruments         PXI-6733           ni_pcimio.o       ni_pcimio 
 Quanser Consulting           MultiQ-3           multiq3.o         multiq3   
 Quatech                      DAQP-208           quatech_daqp_cs.o daqp      
 Quatech                      DAQP-308           quatech_daqp_cs.o daqp      
 Real Time Devices            DM7520HR-1         rtd520.o          DM7520    
 Real Time Devices            DM7520HR-8         rtd520.o          DM7520-8  
-Real Time Devices            PCI4520            rtd520.o          PCI4520   
 Real Time Devices            PCI4520-8          rtd520.o          PCI4520-8 
+Real Time Devices            PCI4520            rtd520.o          PCI4520   
 SSV Embedded Systems         DIL/Net-PC 1486    ssv_dnp.o         dnp-1486  
-Winsystems                   PCM-A/D12          pcmad.o           pcmad12   
-Winsystems                   PCM-A/D16          pcmad.o           pcmad16   
 standard                     8255               8255.o            8255      
 standard                     parallel port      comedi_parport.o  comedi_parport
 unknown                      FL512              fl512.o           fl512     
+Winsystems                   PCM-A/D12          pcmad.o           pcmad12   
+Winsystems                   PCM-A/D16          pcmad.o           pcmad16   
+
 </pre>
 
 <?php
