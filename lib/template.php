@@ -26,7 +26,7 @@
 <td valign=top rowspan=5><nobr>
 <font size=8 face="arial,helvetica"><b>
 <center>
-<img src="comedi_logo.gif" alt="Comedi - The Linux Control and Measurement Interface">
+<img src="images/comedi_logo.png" alt="Comedi - The Linux Control and Measurement Interface">
 </center>
 </font></b>
 </td>
