@@ -44,7 +44,7 @@ for using Comedi from real-time tasks.
 (probably not accurate!)
 
 <ul>
-<li>comedi-0.7.66
+<li>comedi-0.7.68
 <li>comedilib-0.7.19
 </ul>
 
