@@ -4,7 +4,7 @@
 PAGES := intro documentation hardware download links mailinglist
 OTHERFILES := comedi_logo.gif
 
-DESTDIR := /d/ds/www/comedi
+DESTDIR := /home/www/comedi.org/comedi/
 
 all:	$(patsubst %,%.html,$(PAGES))
 
@@ -27,4 +27,8 @@ install:
 	cp $(OTHERFILES) $(DESTDIR)
 	cd $(DESTDIR) && ln -sf intro.html index.html
 	cd $(DESTDIR) && ln -sf ~ftp/pub/comedi download
+
+install_doc:
+	install -m 644 ../comedilib/doc/html/*.html $(DESTDIR)/doc
+
 
