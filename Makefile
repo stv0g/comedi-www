@@ -1,5 +1,3 @@
-#!/bin/bash
-
 
 PAGES := intro documentation hardware download links mailinglist
 OTHERFILES := comedi_logo.gif
