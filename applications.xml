@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml
+[
+]>
+
+<?xml-stylesheet href="comedi.xsl" type="text/xsl"?>
+<page>
+<title>Applications that use Comedi</title>
+<body>
+
+<h1>Applications that use Comedi</h1>
+
+<ul>
+  <li>
+    <a href="http://www.cn.stir.ac.uk/~tgeng/Qt-wave/">Qt-wave</a>
+  </li>
+  <li>
+    <a href="http://ktimetrace.sourceforge.net/">KTimeTrace</a>
+  </li>
+  <li>
+    <a href="http://www.orocos.org/">Orocos</a>
+  </li>
+  <li>
+    <a href="http://rtxi.org/index.jsp">RTXI</a>
+  </li>
+  <li>
+    <a href="http://xoscope.sourceforge.net/">xoscope</a>
+  </li>
+  <li>
+    <a href="http://rtic-lab.sourceforge.net/">RTIC-Lab</a>
+  </li>
+</ul>
+
+
+<!--
+http://www.reed-electronics.com/tmworld/article/CA279573.html
+http://linux-automation.de/
+http://www.bitscope.com/software/
+-->
+
+
+</body>
+</page>
+

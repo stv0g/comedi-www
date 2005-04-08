@@ -2,7 +2,7 @@
 
 
 htmlfiles = documentation.html download.html hardware.html \
-	index.html links.html mailinglist.html
+	index.html links.html mailinglist.html applications.html
 
 all: $(htmlfiles)
 
