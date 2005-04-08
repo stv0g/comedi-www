@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml
+[
+]>
+
+<?xml-stylesheet href="comedi.xsl" type="text/xsl"?>
+<page>
+<title>Comedi - Control and Measurement Interface</title>
+<body>
+
+
+<h1>Introduction</h1>
+
+<p>
+The Comedi project develops open-source drivers, tools, and libraries
+for data acquisition.
+</p>
+
+<p>
+<b>Comedi</b> is a collection of drivers for a variety of common
+data acquisition plug-in boards.  The drivers are implemented as
+a core Linux kernel module providing common functionality and
+individual low-level driver modules.
+</p>
+
+<p>
+<b>Comedilib</b> is a user-space library that provides a
+developer-friendly interface to Comedi devices.  Included in the
+Comedilib distribution is documentation, configuration and
+calibration utilities, and demonstration programs.
+</p>
+
+<p>
+<b>Kcomedilib</b> is a Linux kernel module (distributed with Comedi)
+that provides the same interface as Comedilib in kernel space,
+suitable for real-time tasks.  It is effectively a "kernel library"
+for using Comedi from real-time tasks.
+</p>
+
+
+<h1>Features</h1>
+
+<ul>
+<li>Integrated real-time support for most hardware</li>
+<li>High-level library (comedilib)</li>
+<li>Application-level device independence</li>
+<li>Works with Linux 2.0, 2.2, 2.4, 2.6 kernels</li>
+</ul>
+
+
+<h1>Latest version</h1>
+
+<p>
+(probably not accurate!)
+</p>
+
+<ul>
+<li>comedi-0.7.70</li>
+<li>comedilib-0.7.22</li>
+</ul>
+
+<p>
+Comedi and Comedilib are being actively developed, and because of this,
+new versions are sometimes buggy.  However, reported bugs are usually
+quickly fixed.
+</p>
+
+<h1>Maintainers</h1>
+
+<p>
+David Schleef <i>&lt;ds@schleef.org&gt;</i>
+</p>
+<p>
+Frank Mori Hess <i>&lt;fmhess@users.sourceforge.net&gt;</i>
+</p>
+
+<p>
+Much of Comedi has been developed by others, suggesting the need for
+a contributors list.
+</p>
+
+</body>
+</page>
+

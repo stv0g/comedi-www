@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml
+[
+]>
+
+<?xml-stylesheet href="comedi.xsl" type="text/xsl"?>
+<page>
+  <title>Comedi Documentation</title>
+  <body>
+
+<h1>Documentation</h1>
+
+<p>
+Installation instructions are included in the source for both
+Comedi and Comedilib.
+</p>
+
+<p>
+<a href="doc/index.html">Comedilib Reference</a>
+</p>
+
+
+</body>
+</page>
+

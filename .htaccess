@@ -1,0 +1,8 @@
+
+Redirect permanent /documentation.php http://www.comedi.org/documentation.html
+Redirect permanent /download.php http://www.comedi.org/download.html
+Redirect permanent /hardware.php http://www.comedi.org/hardware.html
+Redirect permanent /index.php http://www.comedi.org/index.html
+Redirect permanent /links.php http://www.comedi.org/links.html
+Redirect permanent /mailinglist.php http://www.comedi.org/mailinglist.html
+

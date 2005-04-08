@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml
+[
+]>
+
+<?xml-stylesheet href="comedi.xsl" type="text/xsl"?>
+<page>
+  <title>Comedi Download</title>
+  <body>
+
+<h1>Download</h1>
+
+<ul>
+<li><a href="ftp://ftp.comedi.org/pub/comedi">FTP:</a> ftp://ftp.comedi.org/pub/comedi</li>
+<li><a href="download">HTTP:</a> http://www.comedi.org/download</li>
+<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedi/comedi.tar.gz?tarball=1">Current Comedi CVS snapshot</a></li>
+<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/comedilib/comedilib.tar.gz?tarball=1">Current Comedilib CVS snapshot</a></li>
+<li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">Browse CVS repository</a></li>
+</ul>
+
+<p>Comedi and comedilib can be checked out using anonymous CVS
+using the commands:
+</p>
+
+<pre>
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedi
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
+</pre>
+
+<p>
+When prompted for a password, hit enter.
+</p>
+
+</body>
+</page>
+
