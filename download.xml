@@ -18,7 +18,7 @@
 <li><a href="https://cvs.comedi.org/cgi-bin/viewcvs.cgi/">Browse CVS repository</a></li>
 </ul>
 
-<p>Comedi and comedilib can be checked out using anonymous CVS
+<p>The latest unstable version of Comedi and comedilib can be checked out using anonymous CVS
 using the commands:
 </p>
 
@@ -26,6 +26,16 @@ using the commands:
 cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
 cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedi
 cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
+</pre>
+
+<p>
+To check out the latest version of the stable branch (0.7.x), specify the branch-0_7 tag:
+</p>
+
+<pre>
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co -r branch-0_7 comedi
+cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co -r branch-0_7 comedilib
 </pre>
 
 <p>
