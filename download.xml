@@ -23,19 +23,9 @@ using the commands:
 </p>
 
 <pre>
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedi
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co comedilib
-</pre>
-
-<p>
-To check out the latest version of the stable branch (0.7.x), specify the branch-0_7 tag:
-</p>
-
-<pre>
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs login
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co -r branch-0_7 comedi
-cvs -d :pserver:anonymous@cvs.comedi.org:/var/cvs co -r branch-0_7 comedilib
+cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi login
+cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi
+cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedilib
 </pre>
 
 <p>
