@@ -11,7 +11,7 @@ all: $(htmlfiles)
 
 push:
 	rsync -a --files-from=files . \
-	  wendolyne:/home/www/comedi.org
+	  home.schleef.org:/home/www/comedi.org
 
 
 
