@@ -11,7 +11,7 @@
 <h1>Download</h1>
 
 <ul>
-<li><a href="ftp://ftp.comedi.org/pub/comedi">FTP:</a> ftp://ftp.comedi.org/pub/comedi</li>
+<!-- <li><a href="ftp://ftp.comedi.org/pub/comedi">FTP:</a> ftp://ftp.comedi.org/pub/comedi</li> -->
 <li><a href="download">HTTP:</a> http://www.comedi.org/download</li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi.tar.gz?view=tar">Current Comedi CVS snapshot</a></li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedilib.tar.gz?view=tar">Current Comedilib CVS snapshot</a></li>
@@ -26,6 +26,16 @@ using the commands:
 cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi login
 cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi
 cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedilib
+</pre>
+
+<p>
+You may also want comedi_calibrate or
+comedi-nonfree-firmware:
+</p>
+
+<pre>
+cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi_calibrate
+cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi-nonfree-firmware
 </pre>
 
 <p>
