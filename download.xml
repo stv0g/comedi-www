@@ -15,10 +15,12 @@
 <li><a href="download">HTTP:</a> http://www.comedi.org/download</li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi.tar.gz?view=tar">Current Comedi CVS snapshot</a></li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedilib.tar.gz?view=tar">Current Comedilib CVS snapshot</a></li>
+<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi_calibrate.tar.gz?view=tar">Current comedi_calibrate CVS snapshot</a></li>
+<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi-nonfree-firmware.tar.gz?view=tar">Current nonfree firmware CVS snapshot</a></li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/">Browse CVS repository</a></li>
 </ul>
 
-<p>The latest unstable version of Comedi and comedilib can be checked out using anonymous CVS
+<p>The latest unstable version of Comedi and Comedilib can be checked out using anonymous CVS
 using the commands:
 </p>
 
