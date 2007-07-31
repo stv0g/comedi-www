@@ -44,7 +44,7 @@ for using Comedi from real-time tasks.
 <li>Integrated real-time support for most hardware</li>
 <li>High-level library (comedilib)</li>
 <li>Application-level device independence</li>
-<li>Works with Linux 2.0, 2.2, 2.4, 2.6 kernels</li>
+<li>Requires a Linux 2.6 kernel.</li>
 </ul>
 
 
@@ -55,8 +55,8 @@ for using Comedi from real-time tasks.
 </p>
 
 <ul>
-<li>comedi-0.7.70</li>
-<li>comedilib-0.7.22</li>
+<li>comedi-0.7.74</li>
+<li>comedilib-0.8.0</li>
 </ul>
 
 <p>
