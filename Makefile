@@ -11,7 +11,7 @@ all: $(htmlfiles)
 
 push:
 	rsync -a --files-from=files . \
-	  home.schleef.org:/home/www/comedi.org
+	  www.comedi.org:/srv/comedi.org/www
 
 
 
