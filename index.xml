@@ -51,13 +51,11 @@ for using Comedi from real-time tasks.
 <h1>Latest version</h1>
 
 <p>
-(probably not accurate!)
-</p>
-
 <ul>
-<li>comedi-0.7.74</li>
-<li>comedilib-0.8.0</li>
+<li>comedi-0.7.75, released 2007-10-28</li>
+<li>comedilib-0.8.1, released 2007-10-28</li>
 </ul>
+</p>
 
 <p>
 Comedi and Comedilib are being actively developed, and because of this,
@@ -75,8 +73,10 @@ Frank Mori Hess <i>&lt;fmhess@users.sourceforge.net&gt;</i>
 </p>
 
 <p>
-Much of Comedi has been developed by others, suggesting the need for
-a contributors list.
+Much of Comedi has been developed by others.  See the AUTHORS files in
+<a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/*checkout*/comedi/AUTHORS">Comedi</a>
+and <a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/*checkout*/comedilib/AUTHORS">Comedilib</a>
+for a listing of contributors.
 </p>
 
 </body>
