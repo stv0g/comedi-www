@@ -9,7 +9,7 @@
 
   <xsl:output method="html" encoding="UTF-8" version="4.01" />
 
-	<!-- alternate background color of table rows -->
+	<!-- identify even/odd table rows so we can apply alternating color scheme -->
 	<xsl:template match="table">
 		<xsl:copy>
 			<xsl:for-each select="*">
@@ -30,6 +30,7 @@
 
 	<xsl:template match="*">
 		<xsl:copy>
+			<xsl:copy-of select="@*"/>
 			<xsl:apply-templates/>
 		</xsl:copy>
 	</xsl:template>
