@@ -22,6 +22,7 @@
 							</xsl:choose>
 						</xsl:attribute>
 					</xsl:if>
+					<xsl:copy-of select="@*"/>
 					<xsl:apply-templates/>
 				</xsl:copy>
 			</xsl:for-each>
@@ -62,42 +63,36 @@
 </tr>
 </table>
 
-<table border="0" width="99%" align="center" cellpadding="2" cellspacing="2"
-	bgcolor="#ffffff">
-<tr valign="top">
-<td valign="top" rowspan="5">
-<font size="4"><b>
-Index
-</b></font>
-<font size="2"><b>
-<br/><a href="index.html">Introduction</a>
-<br/><a href="download.html">Download</a>
-<br/><a href="documentation.html">Documentation</a>
-<br/><a href="mailinglist.html">Mailing list</a>
-<br/><a href="hardware.html">Supported<br/>hardware</a>
-<br/><a href="links.html">Manufacturers</a>
-<br/><a href="applications.html">Applications</a>
-<br/><a href="https://bugzilla.comedi.org/cgi-bin/bugzilla/query.cgi">Bug Tracking</a>
-<br/>
-</b></font>
-<br/>
-<br/>
-<font size="4"><b>
-Links
-</b></font>
-<font size="2"><b>
-<br/><a href="http://www.linux.org/">Linux</a>
-<br/><a href="http://www.debian.org/">Debian</a>
-<br/><a href="http://www.rtai.org/">RTAI</a>
-<br/><a href="http://www.schleef.org/">David Schleef</a>
-</b></font>
-
-
-</td>
-<td valign="top" align="left">
-<xsl:apply-templates select="body/*"/>
-</td>
-</tr>
+<table>
+	<tr>
+		<td>
+			<div class="navigation-bar">
+				<h4>Index</h4>
+				<ul>
+					<li><a href="index.html">Introduction</a></li>
+					<li><a href="download.html">Download</a></li>
+					<li><a href="documentation.html">Documentation</a></li>
+					<li><a href="mailinglist.html">Mailing list</a></li>
+					<li><a href="hardware.html">Supported<br/>hardware</a></li>
+					<li><a href="links.html">Manufacturers</a></li>
+					<li><a href="applications.html">Applications</a></li>
+					<li><a href="https://bugzilla.comedi.org/cgi-bin/bugzilla/query.cgi">Bug Tracking</a></li>
+				</ul>
+				<h4>Links</h4>
+				<ul>
+					<li><a href="http://www.linux.org/">Linux</a></li>
+					<li><a href="http://www.debian.org/">Debian</a></li>
+					<li><a href="http://www.rtai.org/">RTAI</a></li>
+					<li><a href="http://www.schleef.org/">David Schleef</a></li>
+				</ul>
+			</div>
+		</td>
+		<td>
+			<div class="body">
+				<xsl:apply-templates select="body/*"/>
+			</div>
+		</td>
+	</tr>
 </table>
 </body>
 </html>

@@ -13,3 +13,30 @@ tr.even
 	background-color: Lavender;
 }
 
+td
+{
+	vertical-align: top;
+}
+
+div.navigation-bar
+{
+	font-size: small;
+	padding: 3mm;
+	background-color: WhiteSmoke;
+}
+
+div.navigation-bar li
+{
+	font-size: small;
+	padding: 0.1em;
+}
+
+div.body
+{
+	padding: 3mm;
+}
+
+div.body td
+{
+	padding: 1mm;
+}
