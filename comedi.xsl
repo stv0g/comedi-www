@@ -9,6 +9,31 @@
 
   <xsl:output method="html" encoding="UTF-8" version="4.01" />
 
+	<!-- alternate background color of table rows -->
+	<xsl:template match="table">
+		<xsl:copy>
+			<xsl:for-each select="*">
+				<xsl:copy>
+					<xsl:if test="name()='tr'">
+						<xsl:attribute name="class">
+							<xsl:choose>
+								<xsl:when test="position() mod 2 = 0">even</xsl:when>
+								<xsl:otherwise>odd</xsl:otherwise>
+							</xsl:choose>
+						</xsl:attribute>
+					</xsl:if>
+					<xsl:apply-templates/>
+				</xsl:copy>
+			</xsl:for-each>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="*">
+		<xsl:copy>
+			<xsl:apply-templates/>
+		</xsl:copy>
+	</xsl:template>
+
 <xsl:template match="page">
 <xsl:param name="title" select="Big_Kitten_LLC" />
 <xsl:param name="content" />
@@ -17,9 +42,10 @@
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <meta name="GENERATOR" content="Mozilla/4.7 [en] (X11; I; Linux 2.3.50 i686) [Netscape]" />
-   <title><xsl:copy-of select="title/node()" /></title>
+   <xsl:apply-templates select="title"/>
+		<link rel="stylesheet" href="comedi-www.css" type="text/css"/>
 </head>
-<body bgcolor="#000000">
+<body>
 
 
 <table border="0" width="99%" align="center" cellpadding="2" cellspacing="2"
@@ -68,7 +94,7 @@ Links
 
 </td>
 <td valign="top" align="left">
-<xsl:copy-of select="body/node()" />
+<xsl:apply-templates select="body/*"/>
 </td>
 </tr>
 </table>
@@ -76,5 +102,6 @@ Links
 </html>
 
 </xsl:template>
+
 </xsl:stylesheet>
 
