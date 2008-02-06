@@ -36,7 +36,8 @@ div.body
 	padding: 3mm;
 }
 
-div.body td
+div.body td, div.body th
 {
 	padding: 1mm;
+	text-align: left;
 }
