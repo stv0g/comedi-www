@@ -12,6 +12,7 @@
 	<!-- identify even/odd table rows so we can apply alternating color scheme -->
 	<xsl:template match="table">
 		<xsl:copy>
+			<xsl:copy-of select="@*"/>
 			<xsl:for-each select="*">
 				<xsl:copy>
 					<xsl:if test="name()='tr'">
