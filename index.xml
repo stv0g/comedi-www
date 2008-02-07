@@ -63,15 +63,11 @@ quickly fixed.
 
 <h1>Maintainers</h1>
 
-<p>
-David Schleef <i>&lt;ds@schleef.org&gt;</i>
-</p>
-<p>
-Frank Mori Hess <i>&lt;fmhess@users.sourceforge.net&gt;</i>
-</p>
-<p>
-Ian Abbott <i>&lt;abbotti@mev.co.uk&gt;</i>
-</p>
+<ul>
+	<li>David Schleef <em>&lt;ds@schleef.org&gt;</em></li>
+	<li>Frank Mori Hess <em>&lt;fmhess@users.sourceforge.net&gt;</em></li>
+	<li>Ian Abbott <em>&lt;abbotti@mev.co.uk&gt;</em></li>
+</ul>
 
 <p>
 Much of Comedi has been developed by others.  See the AUTHORS files in
