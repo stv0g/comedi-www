@@ -7,7 +7,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.0">
 
-  <xsl:output method="html" encoding="UTF-8" version="4.01" />
+	<xsl:output method="xml" indent="yes"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
 
 	<!-- identify even/odd table rows so we can apply alternating color scheme -->
 	<xsl:template match="table">
@@ -41,7 +43,7 @@
 <xsl:param name="title" select="Big_Kitten_LLC" />
 <xsl:param name="content" />
 
-<html>
+<html xml:lang="en" lang="en">
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <meta name="GENERATOR" content="Mozilla/4.7 [en] (X11; I; Linux 2.3.50 i686) [Netscape]" />
