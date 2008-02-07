@@ -50,12 +50,10 @@ for using Comedi from real-time tasks.
 
 <h1>Latest version</h1>
 
-<p>
 <ul>
 <li>comedi-0.7.76, released 2008-1-28</li>
 <li>comedilib-0.8.1, released 2007-10-28</li>
 </ul>
-</p>
 
 <p>
 Comedi and Comedilib are being actively developed, and because of this,
