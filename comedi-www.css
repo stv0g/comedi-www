@@ -3,12 +3,12 @@ body
 	background-color: White;
 }
 
-tr.odd
+table.alternating-background tr.odd
 {
 	background-color: White;
 }
 
-tr.even
+table.alternating-background tr.even
 {
 	background-color: Lavender;
 }
