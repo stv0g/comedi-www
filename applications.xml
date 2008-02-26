@@ -50,7 +50,7 @@
     implementation and simulation environment for Linux.
   </dd>
   <dt>
-	  <a href="http://www.ajvar.org/~calin/ComediClientServer/">ComediClientServer</a> <em>(dead link)</em>
+    <a href="http://www.ajvar.org/~calin/ComediClientServer/">ComediClientServer</a> <em>(dead link)</em>
   </dt>
   <dd>
     A system to control and test COMEDI devices remotely (or locally).
