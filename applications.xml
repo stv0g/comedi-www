@@ -10,29 +10,52 @@
 
 <h1>Applications that use Comedi</h1>
 
-<ul>
-  <li>
+<dl>
+  <dt>
     <a href="http://www.linux-usb-daq.co.uk/software2/comedi-wave/">Qt-Wave</a>
-  </li>
-  <li>
+  </dt>
+  <dd>
+    Waveform generator using Trolltech QT GUI toolkit.
+  </dd>
+  <dt>
     <a href="http://ktimetrace.sourceforge.net/">KTimeTrace</a>
-  </li>
-  <li>
+  </dt>
+  <dd>
+    Graphical front-end for timed or externally triggered analog input.
+    Uses KDE.
+  </dd>
+  <dt>
     <a href="http://www.orocos.org/">Orocos</a>
-  </li>
-  <li>
+  </dt>
+  <dd>
+    Open Robot Control Software.
+  </dd>
+  <dt>
     <a href="http://rtxi.org/index.jsp">RTXI</a>
-  </li>
-  <li>
+  </dt>
+  <dd>
+    Real-Time eXperiment Interface.
+  </dd>
+  <dt>
     <a href="http://xoscope.sourceforge.net/">xoscope</a>
-  </li>
-  <li>
-    <a href="http://rtic-lab.sourceforge.net/">RTIC-Lab</a>
-  </li>
-  <li>
-    <a href="http://www.ajvar.org/~calin/ComediClientServer/">ComediClientServer</a>
-  </li>
-</ul>
+  </dt>
+  <dd>
+    A digital oscilloscope for Linux.
+  </dd>
+  <dt>
+    <a href="http://rtic-lab.sourceforge.net/">RTiC-Lab</a>
+  </dt>
+  <dd>
+    Real Time Controls Laboratory (RTiC-Lab), a hard real time controller
+    implementation and simulation environment for Linux.
+  </dd>
+  <dt>
+	  <a href="http://www.ajvar.org/~calin/ComediClientServer/">ComediClientServer</a> <em>(dead link)</em>
+  </dt>
+  <dd>
+    A system to control and test COMEDI devices remotely (or locally).
+  </dd>
+</dl>
 
 
 <!--
