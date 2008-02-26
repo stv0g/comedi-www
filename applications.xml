@@ -12,10 +12,17 @@
 
 <dl>
   <dt>
+    <a href="http://www.linux-usb-daq.co.uk/software2/comedi-record/">comedirecord</a>
+  </dt>
+  <dd>
+    A simple program to record data from a Comedi device.
+    Uses the Trolltech Qt widget library.
+  </dd>
+  <dt>
     <a href="http://www.linux-usb-daq.co.uk/software2/comedi-wave/">Qt-Wave</a>
   </dt>
   <dd>
-    Waveform generator using Trolltech QT GUI toolkit.
+    Waveform generator using Trolltech Qt widget library.
   </dd>
   <dt>
     <a href="http://ktimetrace.sourceforge.net/">KTimeTrace</a>
@@ -43,6 +50,13 @@
     A digital oscilloscope for Linux.
   </dd>
   <dt>
+    <a href="http://www.linux-usb-daq.co.uk/software2/qtscope/">QTScope"</a>
+  </dt>
+  <dd>
+    A flexible data visualization tool. Based on Trolltech Qt widget library
+    and Qwt (Qt Widgets for Technical Applications).
+  </dd>
+  <dt>
     <a href="http://rtic-lab.sourceforge.net/">RTiC-Lab</a>
   </dt>
   <dd>
@@ -54,6 +68,19 @@
   </dt>
   <dd>
     A system to control and test COMEDI devices remotely (or locally).
+  </dd>
+  <dt>
+    <a href="http://www.linux-usb-daq.co.uk/software2/comedi2puredata/">comedi2puredata</a>
+  </dt>
+  <dd>
+    Analog DAQ input for the real time audio processor
+    <a href="http://www.puredata.org/">PureData</a>.
+  </dd>
+  <dt>
+    <a href="http://ib.cnea.gov.ar/~thelerg/melon/">MELON</a>
+  </dt>
+  <dd>
+    A software based fuzzy logic controller.
   </dd>
 </dl>
 
