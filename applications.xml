@@ -73,7 +73,7 @@
     <a href="http://www.linux-usb-daq.co.uk/software2/comedi2puredata/">comedi2puredata</a>
   </dt>
   <dd>
-    Analog DAQ input for the real time audio processor
+    Analog DAQ input for the real time audio processor.
     <a href="http://www.puredata.org/">PureData</a>.
   </dd>
   <dt>
@@ -81,6 +81,12 @@
   </dt>
   <dd>
     A software based fuzzy logic controller.
+  </dd>
+  <dt>
+    <a href="http://plcemu.sourceforge.net/">PLC-EMU</a>
+  </dt>
+  <dd>
+    A Programmable Logic Controller EMUlator for Linux.
   </dd>
 </dl>
 
