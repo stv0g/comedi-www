@@ -88,6 +88,12 @@
   <dd>
     A Programmable Logic Controller EMUlator for Linux.
   </dd>
+  <dt>
+    <a href="http://search.cpan.org/~gebele/">Comedi-Lib</a>
+  </dt>
+  <dd>
+    A Perl API for Comedilib.
+  </dd>
 </dl>
 
 
