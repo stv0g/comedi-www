@@ -64,7 +64,8 @@
     implementation and simulation environment for Linux.
   </dd>
   <dt>
-    <a href="http://www.ajvar.org/~calin/ComediClientServer/">ComediClientServer</a> <em>(dead link)</em>
+    <a href="http://repository.elettrolinux.com/Generic/">ComediClientServer</a>
+    (originally from <a href="http://www.ajvar.org/~calin/ComediClientServer/">here</a>)
   </dt>
   <dd>
     A system to control and test COMEDI devices remotely (or locally).
