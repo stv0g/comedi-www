@@ -10,9 +10,23 @@
 
 <h1>Download</h1>
 
+<p>
+  The recommended way to install Comedi and Comedilib is to compile from the
+  current CVS source, as the released versions are quite old (in particular,
+  comedi-0.7.76 only supports kernels up to 2.6.24).
+</p>
+
+<p>
+  Kernel versions 2.6.30 onwards have an experimental in-tree Comedi
+  implementation in the driver "staging" area. This support should improve
+  with later kernel versions. Note that RTAI support for the in-tree "staging"
+  version is still in development, so for current RTAI releases the CVS
+  version of Comedi should be used.
+</p>
+
 <ul>
 <!-- <li><a href="ftp://ftp.comedi.org/pub/comedi">FTP:</a> ftp://ftp.comedi.org/pub/comedi</li> -->
-<li><a href="download">HTTP:</a> http://www.comedi.org/download</li>
+<li><a href="download">HTTP (obsolete versions):</a> http://www.comedi.org/download</li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi.tar.gz?view=tar">Current Comedi CVS snapshot</a></li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedilib.tar.gz?view=tar">Current Comedilib CVS snapshot</a></li>
 <li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi_calibrate.tar.gz?view=tar">Current comedi_calibrate CVS snapshot</a></li>
