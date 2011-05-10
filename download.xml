@@ -12,7 +12,7 @@
 
 <p>
   The recommended way to install Comedi and Comedilib is to compile from the
-  current CVS source, as the released versions are quite old (in particular,
+  current Git source, as the released versions are quite old (in particular,
   comedi-0.7.76 only supports kernels up to 2.6.24).
 </p>
 
@@ -20,29 +20,32 @@
   Kernel versions 2.6.30 onwards have an experimental in-tree Comedi
   implementation in the driver "staging" area. This support should improve
   with later kernel versions. Note that RTAI support for the in-tree "staging"
-  version is still in development, so for current RTAI releases the CVS
+  version is still in development, so for current RTAI releases the Git
   version of Comedi should be used.
 </p>
 
 <ul>
-<!-- <li><a href="ftp://ftp.comedi.org/pub/comedi">FTP:</a> ftp://ftp.comedi.org/pub/comedi</li> -->
 <li><a href="download">HTTP (obsolete versions):</a> http://www.comedi.org/download</li>
-<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi.tar.gz?view=tar">Current Comedi CVS snapshot</a></li>
-<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedilib.tar.gz?view=tar">Current Comedilib CVS snapshot</a></li>
-<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi_calibrate.tar.gz?view=tar">Current comedi_calibrate CVS snapshot</a></li>
-<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/comedi-nonfree-firmware.tar.gz?view=tar">Current nonfree firmware CVS snapshot</a></li>
-<li><a href="http://www.comedi.org/cgi-bin/viewcvs.cgi/">Browse CVS repository</a></li>
-<li><a href="http://www.comedi.org/git?p=linux-comedi.git;a=summary">Linux-Comedi Git repository (web interface)</a></li>
+<li><a href="http://comedi.org/git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
+<li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
+<li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
+<li><a href="http://comedi.org/git?p=comedi/comedi-nonfree-firmware.git;a=snapshot;h=HEAD;sf=tgz">Current non-free firmware Git snapshot</a></li>
+<li><a href="http://comedi.org/git">Browse all Git repositories (web interface):</a>
+  <ul>
+    <li><a href="http://comedi.org/git?p=comedi/comedi.git;a=summary">Comedi</a></li>
+    <li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=summary">Comedilib</a></li>
+    <li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=summary">comedi_calibrate</a></li>
+    <li><a href="http://comedi.org/git?p=comedi/comedi-nonfree-firmware.git;a=summary">Non-free firmware</a></li>
+  </ul></li>
 </ul>
 
-<p>The latest unstable version of Comedi and Comedilib can be checked out using anonymous CVS
-using the commands:
+<p>The latest unstable version of Comedi and Comedilib can be checked out using
+  <a href="http://git-scm.org/">Git</a>, using the commands:
 </p>
 
 <pre>
-cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi login
-cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi
-cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedilib
+git clone git://comedi.org/git/comedi/comedi.git
+git clone git://comedi.org/git/comedi/comedilib.git
 </pre>
 
 <p>
@@ -51,13 +54,9 @@ comedi-nonfree-firmware:
 </p>
 
 <pre>
-cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi_calibrate
-cvs -d :pserver:anonymous@cvs.comedi.org:/cvs/comedi co comedi-nonfree-firmware
+git clone git://comedi.org/git/comedi/comedi_calibrate.git
+git clone git://comedi.org/git/comedi/comedi-nonfree-firmware.git
 </pre>
-
-<p>
-When prompted for a password, hit enter.
-</p>
 
 </body>
 </page>
