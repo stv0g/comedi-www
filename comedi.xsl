@@ -79,7 +79,7 @@
 					<li><a href="hardware.html">Supported<br/>hardware</a></li>
 					<li><a href="links.html">Manufacturers</a></li>
 					<li><a href="applications.html">Applications</a></li>
-					<li><a href="https://bugzilla.comedi.org/cgi-bin/bugzilla/query.cgi">Bug Tracking</a></li>
+					<!-- <li><a href="https://bugzilla.comedi.org/cgi-bin/bugzilla/query.cgi">Bug Tracking</a></li> -->
 				</ul>
 				<h4>Links</h4>
 				<ul>
