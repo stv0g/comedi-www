@@ -95,6 +95,12 @@
   <dd>
     A Perl API for Comedilib.
   </dd>
+  <dt>
+    <a href="http://pypi.python.org/pypi/pycomedi/">pycomedi</a>
+  </dt>
+  <dd>
+    A Python object-oriented interface to Comedilib.
+  </dd>
 </dl>
 
 
