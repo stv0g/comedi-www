@@ -101,6 +101,13 @@
   <dd>
     A Python object-oriented interface to Comedilib.
   </dd>
+  <dt>
+    <a href="http://savannah.nongnu.org/projects/kacq/">kacq</a>
+  </dt>
+  <dd>
+    A C program to perform data acquisition, developed to record data
+    from electrophysiological experiments.
+  </dd>
 </dl>
 
 
