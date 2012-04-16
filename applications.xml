@@ -19,12 +19,6 @@
     Uses the Trolltech Qt widget library.
   </dd>
   <dt>
-    <a href="http://www.linux-usb-daq.co.uk/software2/comedi-wave/">Qt-Wave</a>
-  </dt>
-  <dd>
-    Waveform generator using Trolltech Qt widget library.
-  </dd>
-  <dt>
     <a href="http://ktimetrace.sourceforge.net/">KTimeTrace</a>
   </dt>
   <dd>
