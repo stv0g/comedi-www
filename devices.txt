@@ -172,7 +172,6 @@ ICP	P16R16DIO	acl7225b	p16r16dio
 Inova	ICP_MULTI	icp_multi	icp_multi
 Intelligent Instrumentation	PCI-20001C	ii_pci20kc	ii_pci20kc
 IOTech	DAQBoard/2000	daqboard2000	daqboard2000
-ITL	USB-DUX	usbduxsigma	usbduxsigma.o
 ITL	USB-DUX	usbduxfast	usbduxfast.o
 ITL	USB-DUX	usbduxsigma	usbduxsigma.o
 ITL	USB-DUX	usbdux	usbdux.o
