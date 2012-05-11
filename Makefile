@@ -11,7 +11,7 @@ all: $(htmlfiles)
 
 push:
 	rsync -a --files-from=files . \
-	  bporr@www.comedi.org:/srv/comedi.org/www
+	  www.comedi.org:/srv/comedi.org/www
 
 hardware.html: devices.xml
 
