@@ -10,32 +10,37 @@ ADLink	ACL-8112HG	pcl812	acl8112hg
 ADLink	ACL-8113	pcl812	acl-8113
 ADLink	ACL-8216	pcl812	acl8216
 ADLink	PCI-6208A	adl_pci6208	adl_pci6208
-ADLink	PCI-7296	adl_pci7296	pci7296
-ADLink	PCI-7432	adl_pci7432	pci7432
-ADLink	PCI-8164	adl_pci8164	pci8164
+ADLink	PCI-7230	adl_pci7230	adl_pci7230
+ADLink	PCI-7296	adl_pci7296	adl_pci7296
+ADLink	PCI-7432	adl_pci7432	adl_pci7432
+ADLink	PCI-8164	adl_pci8164	adl_pci8164
 ADLink	PCI-9111HR	adl_pci9111	adl_pci9111
 ADLink	PCI-9118DG	adl_pci9118	pci9118dg
 ADLink	PCI-9118HG	adl_pci9118	pci9118hg
 ADLink	PCI-9118HR	adl_pci9118	pci9118hr
 ADLink	PET-48DIO	pcl724	pet48dio
-Advantech	PCI-1710	adv_pci1710	pci1710
+Advantech	PCI-1710	adv_pci1710	adv_pci1710
 Advantech	PCI-1710HG	adv_pci1710	pci1710hg
-Advantech	PCI-1711	adv_pci1710	pci1711
-Advantech	PCI-1713	adv_pci1710	pci1713
-Advantech	PCI-1720	adv_pci1710	pci1720
-Advantech	PCI-1730	adv_pci_dio	pci1730
-Advantech	PCI-1731	adv_pci1710	pci1731
-Advantech	PCI-1733	adv_pci_dio	pci1733
-Advantech	PCI-1734	adv_pci_dio	pci1734
-Advantech	PCI-1750	adv_pci_dio	pci1750
-Advantech	PCI-1751	adv_pci_dio	pci1751
-Advantech	PCI-1752	adv_pci_dio	pci1752
-Advantech	PCI-1753	adv_pci_dio	pci1753
-Advantech	PCI-1753+PCI-1753E	adv_pci_dio	pci1753e
-Advantech	PCI-1754	adv_pci_dio	pci1754
-Advantech	PCI-1756	adv_pci_dio	pci1756
-Advantech	PCI-1760	adv_pci_dio	pci1760
-Advantech	PCI-1762	adv_pci_dio	pci1762
+Advantech	PCI-1711	adv_pci1710	adv_pci1710
+Advantech	PCI-1713	adv_pci1710	adv_pci1710
+Advantech	PCI-1720	adv_pci1710	adv_pci1710
+Advantech	PCI-1723	adv_pci1723	adv_pci1723
+Advantech	PCI-1730	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1731	adv_pci1710	adv_pci1710
+Advantech	PCI-1733	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1734	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1735U	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1736UP	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1739U	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1750	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1751	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1752	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1753	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1753+PCI-1753E	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1754	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1756	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1760	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1762	adv_pci_dio	adv_pci_dio
 Advantech	PCL-711B	pcl711	pcl711b
 Advantech	PCL-711	pcl711	pcl711
 Advantech	PCL-718	pcl818	pcl718
@@ -69,16 +74,16 @@ Amplicon	PC218E	amplc_dio200	pc218e
 Amplicon	PC263	amplc_pc263	pc263
 Amplicon	PC272E	amplc_dio200	pc272e
 Amplicon	PC36AT	amplc_pc236	pc36at
-Amplicon	PCI215	amplc_dio200	pci215
-Amplicon	PCI224	amplc_pci224	pci224
-Amplicon	PCI230+	amplc_pci230	pci230+
+Amplicon	PCI215	amplc_dio200	pci215 or amplc_dio200
+Amplicon	PCI224	amplc_pci224	amplc_pci224 or pci224
+Amplicon	PCI230+	amplc_pci230	pci230+ or amplc_pci230
 Amplicon	PCI230	amplc_pci230	pci230 or amplc_pci230
-Amplicon	PCI234	amplc_pci224	pci234
-Amplicon	PCI236	amplc_pc236	pci236
-Amplicon	PCI260+	amplc_pci230	pci260+
+Amplicon	PCI234	amplc_pci224	amplc_pci224 or pci234
+Amplicon	PCI236	amplc_pc236	pci236 or amplc_pc236
+Amplicon	PCI260+	amplc_pci230	pci260+ or amplc_pci230
 Amplicon	PCI260	amplc_pci230	pci260 or amplc_pci230
-Amplicon	PCI263	amplc_pc263	pci263
-Amplicon	PCI272	amplc_dio200	pci272
+Amplicon	PCI263	amplc_pc263	pci263 or amplc_pc263
+Amplicon	PCI272	amplc_dio200	pci272 or amplc_dio200
 Analog Devices	RTI-800	rti800	rti800
 Analog Devices	RTI-802	rti802	rti802
 Analog Devices	RTI-815	rti800	rti815
@@ -94,7 +99,7 @@ ComputerBoards	CIO-DAS16/JR	das16	cio-das16/jr
 ComputerBoards	DAS08-AOH	das08	das08-aoh
 ComputerBoards	DAS08-AOL	das08	das08-aol
 ComputerBoards	DAS08-AOM	das08	das08-aom
-ComputerBoards	DAS08	das08	das08
+ComputerBoards	DAS08	das08	isa-das08
 ComputerBoards	DAS08/JR-16-AO	das08	das08jr-16-ao
 ComputerBoards	DAS08/JR/16	das08	das08jr/16
 ComputerBoards	DAS08/JR-AO	das08	das08/jr-ao
@@ -106,7 +111,7 @@ ComputerBoards	PC104-DAS16JR/16	das16	pc104-das16jr/16
 ComputerBoards	PC104-DAS16/JR	das16	pc104-das16jr
 ComputerBoards	PC-CARD DAS16/16-AO	cb_das16_cs	cb_das16_cs
 ComputerBoards	PC-CARD DAS16/16	cb_das16_cs	cb_das16_cs
-ComputerBoards	PCI-DAS08	das08	pci-das08
+ComputerBoards	PCI-DAS08	das08	das08
 ComputerBoards	PCIM-DAS1602/16	cb_pcimdas	cb_pcimdas
 ComputerBoards	PCM-DAS08	das08_cs	pcm-das08
 Contec	PIO1616L	contec_pci_dio	contec_pci_dio
@@ -168,10 +173,11 @@ Inova	ICP_MULTI	icp_multi	icp_multi
 Intelligent Instrumentation	PCI-20001C	ii_pci20kc	ii_pci20kc
 IOTech	DAQBoard/2000	daqboard2000	daqboard2000
 ITL	USB-DUX	usbduxfast	usbduxfast.o
+ITL	USB-DUX	usbduxsigma	usbduxsigma.o
 ITL	USB-DUX	usbdux	usbdux.o
 JR3	PCI force sensor board	jr3_pci	jr3_pci
 Keithley Metrabyte	DAC-02	poc	dac02
-Keithley Metrabyte	DAS08	das08	das08
+Keithley Metrabyte	DAS08	das08	isa-das08
 Keithley Metrabyte	DAS-1201	das16	das-1201
 Keithley Metrabyte	DAS-1202	das16	das-1202
 Keithley Metrabyte	DAS-1401	das16	das-1401
@@ -263,6 +269,7 @@ Meilhaus	ME-4670i	me4000	me4000
 Meilhaus	ME-4680i	me4000	me4000
 Meilhaus	ME-4680is	me4000	me4000
 Meilhaus	ME-4680	me4000	me4000
+MicroAxial	ADQ12-B	adq12b	adq12b
 Micro/sys	MPC-624	mpc624	mpc624
 Motorola	MPC8260 CPM	mpc8260cpm	mpc8260cpm
 National Instruments	AT-2150S	ni_at_a2150	at_a2150s
@@ -288,7 +295,7 @@ National Instruments	DAQCard-AI-16XE-50	ni_mio_cs	ni_mio_cs
 National Instruments	Lab-PC-1200AI	ni_labpc	labpc-1200ai
 National Instruments	Lab-PC-1200	ni_labpc	labpc-1200
 National Instruments	Lab-PC+	ni_labpc	lab-pc+
-National Instruments	PCI-1200	ni_labpc	pci-1200
+National Instruments	PCI-1200	ni_labpc	ni_labpc
 National Instruments	PCI-6014	ni_pcimio	ni_pcimio
 National Instruments	PCI-6023E	ni_pcimio	ni_pcimio
 National Instruments	PCI-6024E	ni_pcimio	ni_pcimio
@@ -355,6 +362,7 @@ National Instruments	PCI-MIO-16E-1	ni_pcimio	ni_pcimio
 National Instruments	PCI-MIO-16E-4	ni_pcimio	ni_pcimio
 National Instruments	PCI-MIO-16XE-10	ni_pcimio	ni_pcimio
 National Instruments	PCI-MIO-16XE-50	ni_pcimio	ni_pcimio
+National Instruments	PCMCIA DAQ-Card-700	ni_daq_700	ni_daq_700
 National Instruments	PCMCIA DAQ-Card DIO-24	ni_daq_dio24	ni_daq_dio24
 National Instruments	PXI-6025E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6030E	ni_pcimio	ni_pcimio
@@ -363,6 +371,8 @@ National Instruments	PXI-6052E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6070E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6071E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6143	ni_pcimio	ni_pcimio
+National Instruments	PXI-6224	ni_pcimio	ni_pcimio
+National Instruments	PXI-6225	ni_pcimio	ni_pcimio
 National Instruments	PXI-6281	ni_pcimio	ni_pcimio
 National Instruments	PXI-6503	ni_pcidio	ni_pcidio
 National Instruments	PXI-6508	ni_pcidio	ni_pcidio
@@ -379,19 +389,19 @@ National Instruments	PXI-6533	ni_pcidio	ni_pcidio
 National Instruments	PXI-6711	ni_pcimio	ni_pcimio
 National Instruments	PXI-6713	ni_pcimio	ni_pcimio
 National Instruments	PXI-6733	ni_pcimio	ni_pcimio
+National Instruments	PXIe-6251	ni_pcimio	ni_pcimio
 Quanser Consulting	MultiQ-3	multiq3	multiq3
 Quatech	DAQP-208	quatech_daqp_cs	daqp
 Quatech	DAQP-308	quatech_daqp_cs	daqp
-Real Time Devices	DM7520HR-1	rtd520	DM7520
-Real Time Devices	DM7520HR-8	rtd520	DM7520-8
-Real Time Devices	PCI4520-8	rtd520	PCI4520-8
-Real Time Devices	PCI4520	rtd520	PCI4520
+Real Time Devices	DM7520HR-1	rtd520	rtd520
+Real Time Devices	DM7520HR-8	rtd520	rtd520
+Real Time Devices	PCI4520-8	rtd520	rtd520
+Real Time Devices	PCI4520	rtd520	rtd520
 Sensoray	526	s526	s526
 Sensoray	626	s626	s626
 SSV Embedded Systems	DIL/Net-PC 1486	ssv_dnp	dnp-1486
 standard	8255	8255	8255
 standard	parallel port	comedi_parport	comedi_parport
-unknown	ADQ12-B [adq12b]	adq12b	MicroAxial
 unknown	FL512	fl512	fl512
 Winsystems	PCM-A/D12	pcmad	pcmad12
 Winsystems	PCM-A/D16	pcmad	pcmad16
