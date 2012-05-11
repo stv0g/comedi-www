@@ -15,7 +15,7 @@ push:
 
 hardware.html: devices.xml
 
-devices.xml:
+devices.xml: devices.txt
 	perl make_device_table.pl < devices.txt > devices.xml
 
 clean:
