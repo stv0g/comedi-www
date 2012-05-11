@@ -10,7 +10,7 @@ all: $(htmlfiles)
 	xsltproc --xinclude $< -o $@
 
 push:
-	rsync -a --files-from=files . \
+	rsync -rcuv --files-from=files . \
 	  www.comedi.org:/srv/comedi.org/www
 
 hardware.html: devices.xml
