@@ -172,9 +172,9 @@ ICP	P16R16DIO	acl7225b	p16r16dio
 Inova	ICP_MULTI	icp_multi	icp_multi
 Intelligent Instrumentation	PCI-20001C	ii_pci20kc	ii_pci20kc
 IOTech	DAQBoard/2000	daqboard2000	daqboard2000
-ITL	USB-DUX	usbduxfast	usbduxfast
-ITL	USB-DUX	usbduxsigma	usbduxsigma
-ITL	USB-DUX	usbdux	usbdux
+ITL	USB-DUX-D	usbdux	usbdux
+ITL	USB-DUX-FAST	usbduxfast	usbduxfast
+ITL	USB-DUX-SIGMA	usbduxsigma	usbduxsigma
 JR3	PCI force sensor board	jr3_pci	jr3_pci
 Keithley Metrabyte	DAC-02	poc	dac02
 Keithley Metrabyte	DAS08	das08	isa-das08
