@@ -11,7 +11,13 @@
 <h1>Download</h1>
 
 <p>
-  The recommended way to install Comedi and Comedilib is to compile from the
+  <b>Comedi</b> is the kernel-level driver code. <b>Comedilib</b> is the
+  user-level API library code.
+</p>
+
+<p>
+  The recommended way to install the Comedi kernel modules from comedi.org
+  is to compile from the
   current Git source, as the released versions are quite old (in particular,
   comedi-0.7.76 only supports kernels up to 2.6.24).
 </p>
@@ -26,6 +32,7 @@
 
 <ul>
 <li><a href="download">HTTP (obsolete versions):</a> http://www.comedi.org/download</li>
+<li><a href="download/comedilib-0.10.0.tar.gz">comedilib-0.10.0</a> (Released 2012-05-15)</li>
 <li><a href="http://comedi.org/git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
 <li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
 <li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
