@@ -12,7 +12,7 @@
 <h1>Supported Hardware</h1>
 
 <p>
-Current as of comedi 0.7.76.
+Current as of comedi git 2012-05-15.
 </p>
 
 <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="devices.xml"/>
