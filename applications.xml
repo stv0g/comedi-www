@@ -96,6 +96,12 @@
     A Python object-oriented interface to Comedilib.
   </dd>
   <dt>
+    <a href="http://sourceforge.net/projects/schlang/">Schlang</a>
+  </dt>
+  <dd>
+    A Deliberately Non-Object-Oriented Python Interface to COMEDI.
+  </dd>
+  <dt>
     <a href="http://savannah.nongnu.org/projects/kacq/">kacq</a>
   </dt>
   <dd>
