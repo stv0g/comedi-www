@@ -12,23 +12,34 @@
 <h1>Mailing List</h1>
 
 <p>
-Comedi has a mailing list for announcements, questions, and discussion
-about Comedi and data acquisition using Linux:
+Comedi has a Google Group and mailing list for announcements, questions,
+and discussion about Comedi and data acquisition using Linux.
 </p>
-<table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
-  <tr><td style="padding-left: 5px">
-  <b>Subscribe to Comedi mailing list</b>
-  </td></tr>
-  <tr><td style="padding-left: 5px;">
-  <form action="http://groups.google.com/group/comedi_list/boxsubscribe">
-  Email: <input type="text" name="email"/>
-  <input type="submit" name="sub" value="Subscribe"/>
-  </form>
-  </td></tr>
+<table>
 <tr><td align="right">
-  <a href="http://groups.google.com/group/comedi_list">Visit this group</a>
+  <a href="https://groups.google.com/forum/#!forum/comedi_list">Visit
+  this group</a>
+</td></tr>
+<tr><td align="right">
+  <a href="https://groups.google.com/forum/#!forum/comedi_list/join">Subscribe
+  to group</a>
 </td></tr>
 </table>
+
+<p>
+An alternative way to subscribe to the mailing list without a Google account
+is to send an email to:
+<a href="mailto:comedi_list%2Bsubscribe@googlegroups.com"
+>comedi_list+subscribe@googlegroups.com</a> and reply to the confirmation
+email to complete the subscription.
+</p>
+
+<p>
+To unsubscribe from the mailing list without a Google account, send an email
+to: <a href="mailto:comedi_list%2Bunsubscribe@googlegroups.com"
+>comedi_list+unsubscribe@googlegroups.com</a> from the email address you
+subscribed with.
+</p>
 
 <p>
 <a href="http://dir.gmane.org/gmane.linux.comedi">Old mailing list archive</a>
