@@ -108,6 +108,14 @@
     A C program to perform data acquisition, developed to record data
     from electrophysiological experiments.
   </dd>
+  <dt>
+    <a href="https://github.com/vquicksilver/freeacq">Freeacq</a>
+  </dt>
+  <dd>
+    Free, multiplatform, data acquisition software, using GNOME
+    libraries (GObject, GTK+), capable of using COMEDI or other data
+    sources (e.g. NIDAQmx).
+  </dd>
 </dl>
 
 
