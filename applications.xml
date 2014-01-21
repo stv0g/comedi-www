@@ -116,6 +116,12 @@
     libraries (GObject, GTK+), capable of using COMEDI or other data
     sources (e.g. NIDAQmx).
   </dd>
+  <dt>
+    <a href="http://www.patchclamp.net/">patchclamp</a>
+  </dt>
+  <dd>
+    A free solution for electrophysiology, using a Qt-based GUI.
+  </dd>
 </dl>
 
 
