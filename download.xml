@@ -33,7 +33,7 @@
 <ul>
 <li><a href="download">HTTP (mostly obsolete versions):</a> http://www.comedi.org/download</li>
 <li><a href="download/comedilib-0.10.2.tar.gz">comedilib-0.10.2</a> (Released 2014-04-15)</li>
-<li><a href="download/comedi_calibrate-2.tar.gz">comedi_calibrate-2</a> (Released 2014-01-06)</li>
+<li><a href="download/comedi_calibrate-3.tar.gz">comedi_calibrate-3</a> (Released 2014-12-16)</li>
 <li><a href="http://comedi.org/git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
 <li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
 <li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
