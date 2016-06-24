@@ -34,16 +34,16 @@
 <li><a href="download">HTTP (mostly obsolete versions):</a> http://www.comedi.org/download</li>
 <li><a href="download/comedilib-0.10.2.tar.gz">comedilib-0.10.2</a> (Released 2014-04-15)</li>
 <li><a href="download/comedi_calibrate-4.tar.gz">comedi_calibrate-4</a> (Released 2016-06-09)</li>
-<li><a href="http://comedi.org/git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
-<li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
-<li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
-<li><a href="http://comedi.org/git?p=comedi/comedi-nonfree-firmware.git;a=snapshot;h=HEAD;sf=tgz">Current non-free firmware Git snapshot</a></li>
-<li><a href="http://comedi.org/git">Browse all Git repositories (web interface):</a>
+<li><a href="git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
+<li><a href="git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
+<li><a href="git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
+<li><a href="git?p=comedi/comedi-nonfree-firmware.git;a=snapshot;h=HEAD;sf=tgz">Current non-free firmware Git snapshot</a></li>
+<li><a href="git">Browse all Git repositories (web interface):</a>
   <ul>
-    <li><a href="http://comedi.org/git?p=comedi/comedi.git;a=summary">Comedi</a></li>
-    <li><a href="http://comedi.org/git?p=comedi/comedilib.git;a=summary">Comedilib</a></li>
-    <li><a href="http://comedi.org/git?p=comedi/comedi_calibrate.git;a=summary">comedi_calibrate</a></li>
-    <li><a href="http://comedi.org/git?p=comedi/comedi-nonfree-firmware.git;a=summary">Non-free firmware</a></li>
+    <li><a href="git?p=comedi/comedi.git;a=summary">Comedi</a></li>
+    <li><a href="git?p=comedi/comedilib.git;a=summary">Comedilib</a></li>
+    <li><a href="git?p=comedi/comedi_calibrate.git;a=summary">comedi_calibrate</a></li>
+    <li><a href="git?p=comedi/comedi-nonfree-firmware.git;a=summary">Non-free firmware</a></li>
   </ul></li>
 </ul>
 
