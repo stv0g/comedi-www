@@ -34,16 +34,16 @@
 <li><a href="download">HTTP (mostly obsolete versions):</a> http://www.comedi.org/download</li>
 <li><a href="download/comedilib-0.10.2.tar.gz">comedilib-0.10.2</a> (Released 2014-04-15)</li>
 <li><a href="download/comedi_calibrate-4.tar.gz">comedi_calibrate-4</a> (Released 2016-06-09)</li>
-<li><a href="git?p=comedi/comedi.git;a=snapshot;h=HEAD;sf=tgz">Current Comedi Git snapshot</a></li>
-<li><a href="git?p=comedi/comedilib.git;a=snapshot;h=HEAD;sf=tgz">Current Comedilib Git snapshot</a></li>
-<li><a href="git?p=comedi/comedi_calibrate.git;a=snapshot;h=HEAD;sf=tgz">Current comedi_calibrate Git snapshot</a></li>
-<li><a href="git?p=comedi/comedi-nonfree-firmware.git;a=snapshot;h=HEAD;sf=tgz">Current non-free firmware Git snapshot</a></li>
-<li><a href="git">Browse all Git repositories (web interface):</a>
+<li><a href="https://github.com/Linux-Comedi/comedi/tarball/master">Current Comedi Git snapshot</a></li>
+<li><a href="https://github.com/Linux-Comedi/comedilib/tarball/master">Current Comedilib Git snapshot</a></li>
+<li><a href="https://github.com/Linux-Comedi/comedi_calibrate/tarball/master">Current comedi_calibrate Git snapshot</a></li>
+<li><a href="https://github.com/Linux-Comedi/comedi-nonfree-firmware/tarball/master">Current non-free firmware Git snapshot</a></li>
+<li><a href="https://github.com/Linux-Comedi">Browse all Git repositories (web interface):</a>
   <ul>
-    <li><a href="git?p=comedi/comedi.git;a=summary">Comedi</a></li>
-    <li><a href="git?p=comedi/comedilib.git;a=summary">Comedilib</a></li>
-    <li><a href="git?p=comedi/comedi_calibrate.git;a=summary">comedi_calibrate</a></li>
-    <li><a href="git?p=comedi/comedi-nonfree-firmware.git;a=summary">Non-free firmware</a></li>
+    <li><a href="https://github.com/Linux-Comedi/comedi">Comedi</a></li>
+    <li><a href="https://github.com/Linux-Comedi/comedilib">Comedilib</a></li>
+    <li><a href="https://github.com/Linux-Comedi/comedi_calibrate">comedi_calibrate</a></li>
+    <li><a href="https://github.com/Linux-Comedi/comedi-nonfree-firmware">Non-free firmware</a></li>
   </ul></li>
 </ul>
 
@@ -52,8 +52,8 @@
 </p>
 
 <pre>
-git clone git://comedi.org/git/comedi/comedi.git
-git clone git://comedi.org/git/comedi/comedilib.git
+git clone https://github.com/Linux-Comedi/comedi.git
+git clone https://github.com/Linux-Comedi/comedilib.git
 </pre>
 
 <p>
@@ -62,9 +62,36 @@ comedi-nonfree-firmware:
 </p>
 
 <pre>
-git clone git://comedi.org/git/comedi/comedi_calibrate.git
-git clone git://comedi.org/git/comedi/comedi-nonfree-firmware.git
+git clone https://github.com/Linux-Comedi/comedi_calibrate.git
+git clone https://github.com/Linux-Comedi/comedi-nonfree-firmware.git
 </pre>
+
+<p>
+  The Git repositories were previously hosted on comedi.org and had URLs of
+  the form "<tt>git://comedi.org/git/comedi/<em>repository.git</em></tt>".
+  To update the URLs of previously cloned repositories (from comedi.org) to
+  use the current github.com URLs, use the "<tt>git remote set-url</tt>"
+  command as follows:
+</p>
+
+<pre>
+cd /path/to/comedi
+git remote set-url origin https://github.com/Linux-Comedi/comedi.git
+
+cd /path/to/comedilib
+git remote set-url origin https://github.com/Linux-Comedi/comedilib.git
+
+cd /path/to/comedi_calibrate
+git remote set-url origin https://github.com/Linux-Comedi/comedi_calibrate.git
+
+cd /path/to/comedi-nonfree-firmware
+git remote set-url origin https://github.com/Linux-Comedi/comedi-nonfree-firmware.git
+</pre>
+
+<p>
+  (Adjust the above commands according to which of the repositories you have
+  previously cloned, and their local filesystem pathnames.)
+</p>
 
 </body>
 </page>

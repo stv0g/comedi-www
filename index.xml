@@ -75,8 +75,8 @@ list</a> rather than mailing the maintainers directly.
 <p>
 Comedi was originally written and conceived by David Schleef <em>&lt;ds@schleef.org&gt;</em>.
 Much of Comedi has been developed by others.  See the AUTHORS files in
-<a href="git?p=comedi/comedi.git;a=blob_plain;f=AUTHORS;hb=HEAD">Comedi</a>
-and <a href="git?p=comedi/comedilib.git;a=blob_plain;f=AUTHORS;hb=HEAD">Comedilib</a>
+<a href="https://github.com/Linux-Comedi/comedi/raw/master/AUTHORS">Comedi</a>
+and <a href="https://github.com/Linux-Comedi/comedilib/raw/master/AUTHORS">Comedilib</a>
 for a more complete listing of contributors.
 </p>
 
