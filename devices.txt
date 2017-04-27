@@ -122,6 +122,9 @@ ComputerBoards	PCI-DAS08	das08	das08
 ComputerBoards	PCIM-DAS1602/16	cb_pcimdas	cb_pcimdas
 ComputerBoards	PCIe-DAS1602/16	cb_pcimdas	cb_pcimdas
 ComputerBoards	PCM-DAS08	das08_cs	pcm-das08
+Contec	ADI16-4(FIT)GY	contec_fit	contec_fit
+Contec	DAI12-4(FIT)GY	contec_fit	contec_fit
+Contec	DIO-8/8(FIT)GY	contec_fit	contec_fit
 Contec	PIO1616L	contec_pci_dio	contec_pci_dio
 Data Translation	DT01-EZ	dt2801	dt2801
 Data Translation	DT21-EZ	dt282x	dt21-ez
@@ -379,10 +382,18 @@ National Instruments	PXI-6052E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6070E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6071E	ni_pcimio	ni_pcimio
 National Instruments	PXI-6143	ni_pcimio	ni_pcimio
+National Instruments	PXI-6220	ni_pcimio	ni_pcimio
+National Instruments	PXI-6221	ni_pcimio	ni_pcimio
 National Instruments	PXI-6224	ni_pcimio	ni_pcimio
 National Instruments	PXI-6225	ni_pcimio	ni_pcimio
+National Instruments	PXI-6250	ni_pcimio	ni_pcimio
 National Instruments	PXI-6251	ni_pcimio	ni_pcimio
+National Instruments	PXI-6254	ni_pcimio	ni_pcimio
+National Instruments	PXI-6259	ni_pcimio	ni_pcimio
+National Instruments	PXI-6280	ni_pcimio	ni_pcimio
 National Instruments	PXI-6281	ni_pcimio	ni_pcimio
+National Instruments	PXI-6284	ni_pcimio	ni_pcimio
+National Instruments	PXI-6289	ni_pcimio	ni_pcimio
 National Instruments	PXI-6503	ni_pcidio	ni_pcidio
 National Instruments	PXI-6508	ni_pcidio	ni_pcidio
 National Instruments	PXI-6509	ni_65xx	ni_65xx
@@ -399,6 +410,7 @@ National Instruments	PXI-6711	ni_pcimio	ni_pcimio
 National Instruments	PXI-6713	ni_pcimio	ni_pcimio
 National Instruments	PXI-6733	ni_pcimio	ni_pcimio
 National Instruments	PXIe-6251	ni_pcimio	ni_pcimio
+National Instruments	PXIe-6259	ni_pcimio	ni_pcimio
 Quanser Consulting	MultiQ-3	multiq3	multiq3
 Quatech	DAQP-208	quatech_daqp_cs	daqp
 Quatech	DAQP-308	quatech_daqp_cs	daqp
