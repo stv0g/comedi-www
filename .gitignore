@@ -1,0 +1,4 @@
+# devices.xml is generated from device.txt
+/devices.xml
+# *.html are generated from *.xml
+/*.html
