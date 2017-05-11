@@ -21,14 +21,15 @@ ADLINK	PCI-9118DG	adl_pci9118	pci9118dg
 ADLINK	PCI-9118HG	adl_pci9118	pci9118hg
 ADLINK	PCI-9118HR	adl_pci9118	pci9118hr
 ADLINK	PET-48DIO	pcl724	pet48dio
-Advantech	PCI-1710	adv_pci1710	adv_pci1710
+Advantech	PCI-1710	adv_pci1710	pci1710 or adv_pci1710
 Advantech	PCI-1710HG	adv_pci1710	pci1710hg
-Advantech	PCI-1711	adv_pci1710	adv_pci1710
-Advantech	PCI-1713	adv_pci1710	adv_pci1710
-Advantech	PCI-1720	adv_pci1710	adv_pci1710
+Advantech	PCI-1711	adv_pci1710	pci1711 or adv_pci1710
+Advantech	PCI-1713	adv_pci1710	pci1713 or adv_pci1710
+Advantech	PCI-1716	adv_pci1710	pci1716 or adv_pci1710
+Advantech	PCI-1720	adv_pci1710	pci1720 or adv_pci1710
 Advantech	PCI-1723	adv_pci1723	adv_pci1723
 Advantech	PCI-1730	adv_pci_dio	adv_pci_dio
-Advantech	PCI-1731	adv_pci1710	adv_pci1710
+Advantech	PCI-1731	adv_pci1710	pci1731 or adv_pci1710
 Advantech	PCI-1733	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1734	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1735U	adv_pci_dio	adv_pci_dio
