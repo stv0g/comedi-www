@@ -43,6 +43,7 @@ Advantech	PCI-1753+PCI-1753E	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1754	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1756	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1760	adv_pci_dio	adv_pci_dio
+Advantech	PCI-1761	adv_pci_dio	adv_pci_dio
 Advantech	PCI-1762	adv_pci_dio	adv_pci_dio
 Advantech	PCL-711	pcl711	pcl711
 Advantech	PCL-711B	pcl711	pcl711b
