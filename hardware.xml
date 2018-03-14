@@ -31,6 +31,11 @@
 <h2 id="hw-comedi-org">Hardware supported by the comedi.org Comedi drivers</h2>
 
 <p>
+	This is the list of hardware supported by the original Comedi drivers
+	maintained at comedi.org.
+</p>
+
+<p>
 	Current as of comedi git 2018-03-14.
 </p>
 
@@ -44,6 +49,11 @@
 <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="devices.xml"/>
 
 <h2 id="hw-kernel-org">Hardware supported by the Linux kernel Comedi drivers</h2>
+
+<p>
+	This is the list of hardware supported by the branch of the Comedi
+	drivers maintained within the Linux kernel sources.
+</p>
 
 <p>
 	Current as of Linux kernel 4.15.
