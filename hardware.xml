@@ -12,10 +12,52 @@
 <h1>Supported Hardware</h1>
 
 <p>
-Current as of comedi git 2017-05-06.
+	There are two main branches (or <i>forks</i>) of the Comedi drivers:
+</p>
+
+<ul>
+	<li>the original Comedi drivers maintained at comedi.org;</li>
+	<li>the newer Comedi drivers maintained as part of the Linux kernel.</li>
+</ul>
+
+<p>
+	There are some differences in the supported devices and the names of
+	the kernel modules in which they are supported, so they are listed
+	below in separate sub-sections for
+	<a href="#hw-comedi-org">the original comedi.org drivers</a> and
+	<a href="#hw-kernel-org">the newer drivers in the Linux kernel</a>.
+</p>
+
+<h2 id="hw-comedi-org">Hardware supported by the comedi.org Comedi drivers</h2>
+
+<p>
+	Current as of comedi git 2017-05-06.
+</p>
+
+<p>
+	N.B. The list is extracted from specially formatted comments in the
+	driver sources.  For that reason, some supported devices are unlisted.
+	(Notably, all the ADDI-DATA devices are unlisted, but they do not
+	follow the usual Comedi driver conventions very well.)
 </p>
 
 <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="devices.xml"/>
+
+<h2 id="hw-kernel-org">Hardware supported by the Linux kernel Comedi drivers</h2>
+
+<p>
+	Current as of Linux kernel 4.15.
+</p>
+
+<p>
+	N.B. The list is extracted from specially formatted comments in the
+	driver sources.  For that reason, some supported devices are unlisted.
+	(Notably, several supported ADDI-DATA devices are unlisted.  This will
+	be remedied once the specially formatted comments are added to the
+	relevant driver sources.)
+</p>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="devices-linux.xml"/>
 
 </body>
 </page>

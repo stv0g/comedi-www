@@ -1,4 +1,6 @@
-# devices.xml is generated from device.txt
+# devices.xml is generated from devices.txt
 /devices.xml
+# devices-linux.xml is generated from devices-linux.txt
+/devices-linux.xml
 # *.html are generated from *.xml
 /*.html
